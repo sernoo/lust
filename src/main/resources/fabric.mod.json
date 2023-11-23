@@ -3,15 +3,15 @@
 	"id": "lust",
 	"version": "${version}",
 	"name": "lust",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "I wonder what this mod is about.",
 	"authors": [
-		"Me!"
+		"sernoo"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/sernoo/lust",
+		"sources": "https://github.com/sernoo/lust"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/lust/icon.png",
 	"environment": "*",
 	"entrypoints": {
