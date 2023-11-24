@@ -1,0 +1,14 @@
+{
+  "block.lust.saffron": "Saffron",
+
+  "item.minecraft.lingering_potion.effect.aphrodisiac": "Lingering Aphrodisiac",
+  "item.minecraft.lingering_potion.effect.antaphrodisiac": "Lingering Antaphrodisiac",
+  "item.minecraft.potion.effect.aphrodisiac": "Aphrodisiac",
+  "item.minecraft.potion.effect.antaphrodisiac": "Antaphrodisiac",
+  "item.minecraft.splash_potion.effect.aphrodisiac": "Splash Aphrodisiac",
+  "item.minecraft.splash_potion.effect.antaphrodisiac": "Splash Antaphrodisiac",
+  "item.minecraft.tipped_arrow.effect.aphrodisiac": "Arrow of Lust",
+  "item.minecraft.tipped_arrow.effect.antaphrodisiac": "Arrow of Chastity",
+
+  "itemgroup.lust": "Lust"
+}
