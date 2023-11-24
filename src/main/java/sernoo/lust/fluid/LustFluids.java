@@ -11,9 +11,6 @@ import sernoo.lust.Lust;
 import sernoo.lust.item.LustBucketItem;
 
 public class LustFluids {
-    public static final int CUM_TINT_COLOR = 0xF4F4F4;
-    public static final int PEE_TINT_COLOR = 0xE8E596;
-
     public static final Identifier STILL_CUM_ID = new Identifier(Lust.MOD_ID, "cum");
     public static final Identifier FLOWING_CUM_ID = new Identifier(Lust.MOD_ID, "flowing_cum");
     public static final Identifier STILL_PEE_ID = new Identifier(Lust.MOD_ID, "pee");
@@ -21,10 +18,10 @@ public class LustFluids {
 
     public static final FlowableFluid STILL_CUM = registerFluid(STILL_CUM_ID, new CumFluid.Still());
     public static final FlowableFluid FLOWING_CUM = registerFluid(FLOWING_CUM_ID, new CumFluid.Flowing());
-    public static final Item CUM_BUCKET = registerBucket("cum_bucket", STILL_CUM, CUM_TINT_COLOR);
+    public static final Item CUM_BUCKET = registerBucket("cum_bucket", STILL_CUM, 0xF4F4F4);
     public static final FlowableFluid STILL_PEE = registerFluid(STILL_PEE_ID, new PeeFluid.Still());
     public static final FlowableFluid FLOWING_PEE = registerFluid(FLOWING_PEE_ID, new PeeFluid.Flowing());
-    public static final Item PEE_BUCKET = registerBucket("pee_bucket", STILL_PEE, PEE_TINT_COLOR);
+    public static final Item PEE_BUCKET = registerBucket("pee_bucket", STILL_PEE, 0xE8E596);
 
     private static FlowableFluid registerFluid(Identifier id, BaseFluid fluid) {
         return Registry.register(Registries.FLUID, id, fluid);

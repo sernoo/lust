@@ -13,11 +13,10 @@ import sernoo.lust.fluid.LustFluids;
 import sernoo.lust.item.LustBucketItem;
 
 public class LustClient implements ClientModInitializer {
-	private static void registerClientFluid(FlowableFluid still, FlowableFluid flowing, int tint) {
+	private static void registerClientFluid(FlowableFluid still, FlowableFluid flowing, String name) {
 		FluidRenderHandlerRegistry.INSTANCE.register(still, flowing, new SimpleFluidRenderHandler(
-				new Identifier("minecraft:block/water_still"),
-				new Identifier("minecraft:block/water_flow"),
-				tint
+				new Identifier(Lust.MOD_ID, String.format("block/%s_still", name)),
+				new Identifier(Lust.MOD_ID, String.format("block/%s_flow", name))
 		));
 
 		BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), still, flowing);
@@ -29,8 +28,8 @@ public class LustClient implements ClientModInitializer {
 		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> ((LustBucketItem) stack.getItem()).getColor(tintIndex),
 				LustFluids.CUM_BUCKET, LustFluids.PEE_BUCKET);
 
-		registerClientFluid(LustFluids.STILL_CUM, LustFluids.FLOWING_CUM, LustFluids.CUM_TINT_COLOR);
-		registerClientFluid(LustFluids.STILL_PEE, LustFluids.FLOWING_PEE, LustFluids.PEE_TINT_COLOR);
+		registerClientFluid(LustFluids.STILL_CUM, LustFluids.FLOWING_CUM, "cum");
+		registerClientFluid(LustFluids.STILL_PEE, LustFluids.FLOWING_PEE, "pee");
 	}
 
 	@Override

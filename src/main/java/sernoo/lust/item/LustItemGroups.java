@@ -10,6 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import sernoo.lust.Lust;
 import sernoo.lust.block.LustBlocks;
+import sernoo.lust.fluid.LustFluids;
 
 public class LustItemGroups {
     public static final ItemGroup LUST_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -17,6 +18,8 @@ public class LustItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lust"))
                     .icon(() -> new ItemStack(Items.END_ROD)).entries((displayContext, entries) -> {
                         entries.add(LustBlocks.SAFFRON);
+                        entries.add(LustFluids.CUM_BUCKET);
+                        entries.add(LustFluids.PEE_BUCKET);
                     }).build());
 
     public static void register() {
