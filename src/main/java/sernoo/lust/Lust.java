@@ -12,7 +12,7 @@ import sernoo.lust.potion.LustPotions;
 
 public class Lust implements ModInitializer {
 	public static final String MOD_ID = "lust";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
