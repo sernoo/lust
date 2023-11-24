@@ -4,6 +4,11 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sernoo.lust.block.LustBlocks;
+import sernoo.lust.effect.LustEffects;
+import sernoo.lust.item.LustItemGroups;
+import sernoo.lust.item.LustItems;
+import sernoo.lust.potion.LustPotions;
 
 public class Lust implements ModInitializer {
 	public static final String MOD_ID = "lust";
@@ -11,6 +16,10 @@ public class Lust implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LustEffects.register();
+		LustItemGroups.register();
+		LustItems.register();
+		LustBlocks.register();
+		LustPotions.register();
 	}
 }
