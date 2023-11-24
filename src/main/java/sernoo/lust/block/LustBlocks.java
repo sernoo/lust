@@ -19,6 +19,11 @@ public class LustBlocks {
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_SAFFRON = registerBlock("potted_saffron",
             new FlowerPotBlock(SAFFRON, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+    public static final Block GINSENG = registerBlockWithItem("ginseng",
+            new FlowerBlock(LustEffects.LUST, 10,
+                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block POTTED_GINSENG = registerBlock("potted_ginseng",
+            new FlowerPotBlock(GINSENG, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block CUM = registerFluidBlock(LustFluids.STILL_CUM_ID, LustFluids.STILL_CUM);
     public static final Block PEE = registerFluidBlock(LustFluids.STILL_PEE_ID, LustFluids.STILL_PEE);

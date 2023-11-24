@@ -45,6 +45,11 @@ public class LustPotions {
         registerPotionRecipe(CUM, LustBlocks.SAFFRON.asItem(), APHRODISIAC_POTION);
         registerPotionRecipe(PEE, LustBlocks.SAFFRON.asItem(), APHRODISIAC_POTION);
         registerPotionRecipe(Potions.WATER, LustBlocks.SAFFRON.asItem(), APHRODISIAC_POTION);
+
+        registerPotionRecipe(CUM, LustBlocks.GINSENG.asItem(), APHRODISIAC_POTION);
+        registerPotionRecipe(PEE, LustBlocks.GINSENG.asItem(), APHRODISIAC_POTION);
+        registerPotionRecipe(Potions.WATER, LustBlocks.GINSENG.asItem(), APHRODISIAC_POTION);
+
         registerPotionRecipe(ANTAPHRODISIAC_POTION, Items.FERMENTED_SPIDER_EYE, APHRODISIAC_POTION);
         registerPotionRecipe(APHRODISIAC_POTION, Items.REDSTONE, LONG_APHRODISIAC_POTION);
         registerPotionRecipe(APHRODISIAC_POTION, Items.GLOWSTONE_DUST, STRONG_APHRODISIAC_POTION);

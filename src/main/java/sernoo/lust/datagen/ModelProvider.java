@@ -20,6 +20,7 @@ public class ModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerFlowerPotPlant(LustBlocks.SAFFRON, LustBlocks.POTTED_SAFFRON, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(LustBlocks.GINSENG, LustBlocks.POTTED_GINSENG, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     public static Model item(String parent) {

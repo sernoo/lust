@@ -37,6 +37,9 @@ public class LustClient implements ClientModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlock(LustBlocks.SAFFRON, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(LustBlocks.POTTED_SAFFRON, RenderLayer.getCutout());
 
+		BlockRenderLayerMap.INSTANCE.putBlock(LustBlocks.GINSENG, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(LustBlocks.POTTED_GINSENG, RenderLayer.getCutout());
+
 		registerClientFluids();
 	}
 }

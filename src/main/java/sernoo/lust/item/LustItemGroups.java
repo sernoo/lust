@@ -18,6 +18,8 @@ public class LustItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lust"))
                     .icon(() -> new ItemStack(Items.END_ROD)).entries((displayContext, entries) -> {
                         entries.add(LustBlocks.SAFFRON);
+                        entries.add(LustBlocks.GINSENG);
+
                         entries.add(LustFluids.CUM_BUCKET);
                         entries.add(LustFluids.PEE_BUCKET);
                     }).build());

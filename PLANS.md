@@ -6,7 +6,7 @@
   - [x] Splash, Lingering, etc. variants
   - [ ] Sources
     - [x] Saffron
-    - [ ] Ginseng
+    - [x] Ginseng
     - [ ] Cinnamon (Cinnamomum cassia)
 - [ ] Antaphrodisiac Potion (Chastity effect)
   - [x] Splash, Lingering, etc. variants 
