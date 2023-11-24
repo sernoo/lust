@@ -35,6 +35,8 @@
 - [ ] Silicone
 - [ ] Vibration motor
 - [ ] Fluids
+  - [x] Bucket of fluid
+  - [ ] Bottle of fluid
   - [x] Cum
   - [x] Pee
 
