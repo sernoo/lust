@@ -2,13 +2,13 @@
 
 ## Aphrodisiacs
 
-- [ ] Aphrodisiac Potion
+- [ ] Aphrodisiac Potion (Lust effect)
   - [x] Splash, Lingering, etc. variants
   - [ ] Sources
     - [x] Saffron
     - [ ] Ginseng
     - [ ] Cinnamon (Cinnamomum cassia)
-- [ ] Antaphrodisiac Potion
+- [ ] Antaphrodisiac Potion (Chastity effect)
   - [x] Splash, Lingering, etc. variants 
   - [ ] Sources
     - TBD
