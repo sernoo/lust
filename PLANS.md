@@ -24,7 +24,7 @@
     - [ ] Breed animals together (NOT bestiality)
   - [ ] Chastity
     - [ ] Steadily lowers libido
-    - [ ] Cancel animal breeding
+    - [ ] Cancels animal breeding
 - [ ] Masturbation
   - [ ] Increases libido
   - [ ] Reset libido on orgasm
