@@ -1,8 +1,13 @@
 {
+  "block.lust.cum": "Cum",
+  "block.lust.pee": "Pee",
   "block.lust.saffron": "Saffron",
 
   "effect.lust.chastity": "Chastity",
   "effect.lust.lust": "Lust",
+
+  "item.lust.cum_bucket": "Cum Bucket",
+  "item.lust.pee_bucket": "Pee Bucket",
 
   "item.minecraft.lingering_potion.effect.aphrodisiac": "Lingering Aphrodisiac",
   "item.minecraft.lingering_potion.effect.antaphrodisiac": "Lingering Antaphrodisiac",
