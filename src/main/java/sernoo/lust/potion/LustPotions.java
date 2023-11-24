@@ -15,6 +15,9 @@ import sernoo.lust.block.LustBlocks;
 import sernoo.lust.effect.LustEffects;
 
 public class LustPotions {
+    public static final Potion CUM = registerPotion("cum", new Potion());
+    public static final Potion PEE = registerPotion("pee", new Potion());
+
     public static final Potion APHRODISIAC_POTION = registerPotion("aphrodisiac",
             new Potion(new StatusEffectInstance(LustEffects.LUST, 3600, 0)));
     public static final Potion LONG_APHRODISIAC_POTION = registerPotion("long_aphrodisiac",
@@ -39,6 +42,8 @@ public class LustPotions {
     public static void register() {
         Lust.LOGGER.info("Registering potions for " + Lust.MOD_ID);
 
+        registerPotionRecipe(CUM, LustBlocks.SAFFRON.asItem(), APHRODISIAC_POTION);
+        registerPotionRecipe(PEE, LustBlocks.SAFFRON.asItem(), APHRODISIAC_POTION);
         registerPotionRecipe(Potions.WATER, LustBlocks.SAFFRON.asItem(), APHRODISIAC_POTION);
         registerPotionRecipe(ANTAPHRODISIAC_POTION, Items.FERMENTED_SPIDER_EYE, APHRODISIAC_POTION);
         registerPotionRecipe(APHRODISIAC_POTION, Items.REDSTONE, LONG_APHRODISIAC_POTION);
