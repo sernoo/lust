@@ -18,10 +18,10 @@ public class LustFluids {
 
     public static final FlowableFluid STILL_CUM = registerFluid(STILL_CUM_ID, new CumFluid.Still());
     public static final FlowableFluid FLOWING_CUM = registerFluid(FLOWING_CUM_ID, new CumFluid.Flowing());
-    public static final Item CUM_BUCKET = registerBucket("cum_bucket", STILL_CUM, 0xF4F4F4);
+    public static final Item CUM_BUCKET = registerBucket("cum_bucket", STILL_CUM, 0xFFFFFF);
     public static final FlowableFluid STILL_PEE = registerFluid(STILL_PEE_ID, new PeeFluid.Still());
     public static final FlowableFluid FLOWING_PEE = registerFluid(FLOWING_PEE_ID, new PeeFluid.Flowing());
-    public static final Item PEE_BUCKET = registerBucket("pee_bucket", STILL_PEE, 0xE8E596);
+    public static final Item PEE_BUCKET = registerBucket("pee_bucket", STILL_PEE, 0xFFFF00);
 
     private static FlowableFluid registerFluid(Identifier id, BaseFluid fluid) {
         return Registry.register(Registries.FLUID, id, fluid);
