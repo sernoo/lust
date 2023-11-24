@@ -2,11 +2,8 @@ package sernoo.lust.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FlowerBlock;
-import net.minecraft.block.FlowerPotBlock;
-import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.block.*;
+import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -14,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import sernoo.lust.Lust;
 import sernoo.lust.effect.LustEffects;
+import sernoo.lust.fluid.LustFluids;
 
 public class LustBlocks {
     public static final Block SAFFRON = registerBlockWithItem("saffron",
@@ -21,6 +19,13 @@ public class LustBlocks {
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_SAFFRON = registerBlock("potted_saffron",
             new FlowerPotBlock(SAFFRON, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block CUM = registerFluidBlock(LustFluids.STILL_CUM_ID, LustFluids.STILL_CUM);
+    public static final Block PEE = registerFluidBlock(LustFluids.STILL_PEE_ID, LustFluids.STILL_PEE);
+
+    private static Block registerFluidBlock(Identifier id, FlowableFluid fluid) {
+        return Registry.register(Registries.BLOCK, id, new FluidBlock(fluid, FabricBlockSettings.copy(Blocks.WATER)){});
+    }
 
     private static Block registerBlockWithItem(String name, Block block) {
         registerBlockItem(name, block);
