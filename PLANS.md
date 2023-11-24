@@ -36,7 +36,8 @@
 - [ ] Vibration motor
 - [ ] Fluids
   - [x] Bucket of fluid
-  - [ ] Bottle of fluid
+  - [x] Bottle of fluid
+  - [ ] Custom particles
   - [x] Cum
   - [x] Pee
 
