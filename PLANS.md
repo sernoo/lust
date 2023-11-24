@@ -33,7 +33,8 @@
 
 - [ ] Silicone
 - [ ] Vibration motor
-- [ ] Cum
+- [x] Cum
+- [x] Pee
 
 ## Sex toys
 
