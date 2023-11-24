@@ -2,13 +2,23 @@
 
 ## Aphrodisiacs
 
-- [ ] Saffron
-- [ ] Ginseng
-- [ ] Cinnamon (Cinnamomum cassia)
+- [ ] Aphrodisiac Potion
+  - [x] Splash, Lingering, etc. variants
+  - [ ] Sources
+    - [x] Saffron
+    - [ ] Ginseng
+    - [ ] Cinnamon (Cinnamomum cassia)
+- [ ] Antaphrodisiac Potion
+  - [x] Splash, Lingering, etc. variants 
+  - [ ] Sources
+    - TBD
 
 ## Mechanics
 
-- [ ] Lust bar
+- [ ] Libido bar
+- [ ] Status effects
+  - [ ] Lust
+  - [ ] Chastity
 - [ ] Masturbation
 
 ## Materials/fluids
@@ -26,8 +36,17 @@
 - [ ] Dolls
   - [ ] Male sex doll
   - [ ] Female sex doll
+  - [ ] Futanari sex doll
 - [ ] Vibrators
-  - [ ] TBD
+  - [ ] Vibration motor
+  - [ ] G-spot vibrator
+  - [ ] Wand vibrator
+  - [ ] Egg vibrator
 - [ ] Male masturbators
   - [ ] Pocket pussy
   - [ ] Pocket mouth
+
+## Chastity
+
+- [ ] Chastity cage (male)
+- [ ] Chastity belt (female)
