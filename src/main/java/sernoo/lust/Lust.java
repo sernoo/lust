@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sernoo.lust.block.LustBlocks;
 import sernoo.lust.effect.LustEffects;
+import sernoo.lust.fluid.LustFluids;
 import sernoo.lust.item.LustItemGroups;
 import sernoo.lust.item.LustItems;
 import sernoo.lust.potion.LustPotions;
@@ -21,5 +22,6 @@ public class Lust implements ModInitializer {
 		LustItems.register();
 		LustBlocks.register();
 		LustPotions.register();
+		LustFluids.register();
 	}
 }
