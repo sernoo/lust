@@ -13,10 +13,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import sernoo.lust.Lust;
+import sernoo.lust.effect.LustEffects;
 
 public class LustBlocks {
     public static final Block SAFFRON = registerBlockWithItem("saffron",
-            new FlowerBlock(StatusEffects.SPEED, 10,
+            new FlowerBlock(LustEffects.LUST, 10,
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_SAFFRON = registerBlock("potted_saffron",
             new FlowerPotBlock(SAFFRON, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));

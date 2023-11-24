@@ -1,6 +1,9 @@
 {
   "block.lust.saffron": "Saffron",
 
+  "effect.lust.chastity": "Chastity",
+  "effect.lust.lust": "Lust",
+
   "item.minecraft.lingering_potion.effect.aphrodisiac": "Lingering Aphrodisiac",
   "item.minecraft.lingering_potion.effect.antaphrodisiac": "Lingering Antaphrodisiac",
   "item.minecraft.potion.effect.aphrodisiac": "Aphrodisiac",

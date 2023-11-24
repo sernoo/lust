@@ -12,20 +12,21 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import sernoo.lust.Lust;
 import sernoo.lust.block.LustBlocks;
+import sernoo.lust.effect.LustEffects;
 
 public class LustPotions {
     public static final Potion APHRODISIAC_POTION = registerPotion("aphrodisiac",
-            new Potion(new StatusEffectInstance(StatusEffects.SPEED, 3600, 0)));
+            new Potion(new StatusEffectInstance(LustEffects.LUST, 3600, 0)));
     public static final Potion LONG_APHRODISIAC_POTION = registerPotion("long_aphrodisiac",
-            new Potion("aphrodisiac", new StatusEffectInstance(StatusEffects.SPEED, 9600, 0)));
+            new Potion("aphrodisiac", new StatusEffectInstance(LustEffects.LUST, 9600, 0)));
     public static final Potion STRONG_APHRODISIAC_POTION = registerPotion("strong_aphrodisiac",
-            new Potion("aphrodisiac", new StatusEffectInstance(StatusEffects.SPEED, 1800, 1)));
+            new Potion("aphrodisiac", new StatusEffectInstance(LustEffects.LUST, 1800, 1)));
     public static final Potion ANTAPHRODISIAC_POTION = registerPotion("antaphrodisiac",
-            new Potion(new StatusEffectInstance(StatusEffects.SLOWNESS, 3600, 0)));
+            new Potion(new StatusEffectInstance(LustEffects.CHASTITY, 3600, 0)));
     public static final Potion LONG_ANTAPHRODISIAC_POTION = registerPotion("long_antaphrodisiac",
-            new Potion("antaphrodisiac", new StatusEffectInstance(StatusEffects.SLOWNESS, 9600, 0)));
+            new Potion("antaphrodisiac", new StatusEffectInstance(LustEffects.CHASTITY, 9600, 0)));
     public static final Potion STRONG_ANTAPHRODISIAC_POTION = registerPotion("strong_antaphrodisiac",
-            new Potion("antaphrodisiac", new StatusEffectInstance(StatusEffects.SLOWNESS, 1800, 1)));
+            new Potion("antaphrodisiac", new StatusEffectInstance(LustEffects.CHASTITY, 1800, 1)));
 
     private static Potion registerPotion(String name, Potion potion) {
         return Registry.register(Registries.POTION, new Identifier(Lust.MOD_ID, name), potion);
