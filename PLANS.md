@@ -16,10 +16,18 @@
 ## Mechanics
 
 - [ ] Libido bar
+  - [ ] Masturbation disabled when empty
+  - [ ] Nausea applied when full
 - [ ] Status effects
   - [ ] Lust
+    - [ ] Steadily increases libido
+    - [ ] Breed animals together (NOT bestiality)
   - [ ] Chastity
+    - [ ] Steadily lowers libido
+    - [ ] Cancel animal breeding
 - [ ] Masturbation
+  - [ ] Increases libido
+  - [ ] Reset libido on orgasm
 
 ## Materials/fluids
 
@@ -42,7 +50,7 @@
   - [ ] G-spot vibrator
   - [ ] Wand vibrator
   - [ ] Egg vibrator
-- [ ] Male masturbators
+- [ ] Pocket masturbators
   - [ ] Pocket pussy
   - [ ] Pocket mouth
 
