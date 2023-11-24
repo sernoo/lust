@@ -32,6 +32,7 @@
 ## Materials/fluids
 
 - [ ] Silicone
+- [ ] Vibration motor
 - [ ] Cum
 
 ## Sex toys
@@ -46,7 +47,6 @@
   - [ ] Female sex doll
   - [ ] Futanari sex doll
 - [ ] Vibrators
-  - [ ] Vibration motor
   - [ ] G-spot vibrator
   - [ ] Wand vibrator
   - [ ] Egg vibrator
