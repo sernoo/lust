@@ -22,6 +22,7 @@
   - [ ] Lust
     - [ ] Steadily increases libido
     - [ ] Breed animals together (NOT bestiality)
+    - [ ] Applied when drinking cum or pee
   - [ ] Chastity
     - [ ] Steadily lowers libido
     - [ ] Cancels animal breeding
@@ -33,8 +34,9 @@
 
 - [ ] Silicone
 - [ ] Vibration motor
-- [x] Cum
-- [x] Pee
+- [ ] Fluids
+  - [x] Cum
+  - [x] Pee
 
 ## Sex toys
 
