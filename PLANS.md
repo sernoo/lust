@@ -21,11 +21,15 @@
 - [ ] Status effects
   - [ ] Lust
     - [ ] Steadily increases libido
-    - [ ] Breed animals together (NOT bestiality)
+    - [x] Breed animals together (NOT bestiality)
+    - [x] Breed villagers together
     - [ ] Applied when drinking cum or pee
+    - [x] Cancels chastity effect
   - [ ] Chastity
     - [ ] Steadily lowers libido
-    - [ ] Cancels animal breeding
+    - [x] Cancels animal breeding
+    - [ ] Cancel villager breeding
+    - [x] Cancels lust effect
 - [ ] Masturbation
   - [ ] Increases libido
   - [ ] Reset libido on orgasm
