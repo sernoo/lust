@@ -34,6 +34,8 @@ abstract class GlassBottleItemMixin {
                 result = LustPotions.CUM;
             } else if (bucket == LustFluids.PEE_BUCKET) {
                 result = LustPotions.PEE;
+            } else if (bucket == LustFluids.LUBE_BUCKET) {
+                result = LustPotions.LUBE;
             }
 
             return true;

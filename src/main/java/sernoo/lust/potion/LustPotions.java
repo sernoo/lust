@@ -1,7 +1,6 @@
 package sernoo.lust.potion;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
@@ -17,6 +16,7 @@ import sernoo.lust.effect.LustEffects;
 public class LustPotions {
     public static final Potion CUM = registerPotion("cum", new Potion());
     public static final Potion PEE = registerPotion("pee", new Potion());
+    public static final Potion LUBE = registerPotion("lube", new Potion());
 
     public static final Potion APHRODISIAC_POTION = registerPotion("aphrodisiac",
             new Potion(new StatusEffectInstance(LustEffects.LUST, 3600, 0)));

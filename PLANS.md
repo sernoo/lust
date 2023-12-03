@@ -32,6 +32,12 @@
     - [x] Cancels lust effect
 - [ ] Masturbation
   - [ ] Increases libido
+    - [ ] Rate increase when using sex toy
+  - [ ] Reset libido on orgasm
+- [ ] Fuck machine
+  - [ ] Select a dildo
+  - [ ] Uses lube as fuel
+  - [ ] Increases libido
   - [ ] Reset libido on orgasm
 
 ## Materials/fluids
@@ -44,6 +50,7 @@
   - [ ] Custom particles
   - [x] Cum
   - [x] Pee
+  - [x] Lube
 
 ## Sex toys
 

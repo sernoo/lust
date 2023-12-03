@@ -27,6 +27,7 @@ public class LustBlocks {
 
     public static final Block CUM = registerFluidBlock(LustFluids.STILL_CUM_ID, LustFluids.STILL_CUM);
     public static final Block PEE = registerFluidBlock(LustFluids.STILL_PEE_ID, LustFluids.STILL_PEE);
+    public static final Block LUBE = registerFluidBlock(LustFluids.STILL_LUBE_ID, LustFluids.STILL_LUBE);
 
     private static Block registerFluidBlock(Identifier id, FlowableFluid fluid) {
         return Registry.register(Registries.BLOCK, id, new FluidBlock(fluid, FabricBlockSettings.copy(Blocks.WATER)){});

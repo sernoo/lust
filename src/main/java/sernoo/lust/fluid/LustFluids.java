@@ -15,6 +15,8 @@ public class LustFluids {
     public static final Identifier FLOWING_CUM_ID = new Identifier(Lust.MOD_ID, "flowing_cum");
     public static final Identifier STILL_PEE_ID = new Identifier(Lust.MOD_ID, "pee");
     public static final Identifier FLOWING_PEE_ID = new Identifier(Lust.MOD_ID, "flowing_pee");
+    public static final Identifier STILL_LUBE_ID = new Identifier(Lust.MOD_ID, "lube");
+    public static final Identifier FLOWING_LUBE_ID = new Identifier(Lust.MOD_ID, "flowing_lube");
 
     public static final FlowableFluid STILL_CUM = registerFluid(STILL_CUM_ID, new CumFluid.Still());
     public static final FlowableFluid FLOWING_CUM = registerFluid(FLOWING_CUM_ID, new CumFluid.Flowing());
@@ -22,6 +24,9 @@ public class LustFluids {
     public static final FlowableFluid STILL_PEE = registerFluid(STILL_PEE_ID, new PeeFluid.Still());
     public static final FlowableFluid FLOWING_PEE = registerFluid(FLOWING_PEE_ID, new PeeFluid.Flowing());
     public static final Item PEE_BUCKET = registerBucket("pee_bucket", STILL_PEE, 0xFFFF00);
+    public static final FlowableFluid STILL_LUBE = registerFluid(STILL_LUBE_ID, new LubeFluid.Still());
+    public static final FlowableFluid FLOWING_LUBE = registerFluid(FLOWING_LUBE_ID, new LubeFluid.Flowing());
+    public static final Item LUBE_BUCKET = registerBucket("lube_bucket", STILL_LUBE, 0xFFFFFF);
 
     private static FlowableFluid registerFluid(Identifier id, BaseFluid fluid) {
         return Registry.register(Registries.FLUID, id, fluid);

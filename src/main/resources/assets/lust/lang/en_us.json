@@ -1,6 +1,7 @@
 {
   "block.lust.cum": "Cum",
   "block.lust.pee": "Pee",
+  "block.lust.lube": "Lube",
   "block.lust.saffron": "Saffron",
   "block.lust.ginseng": "Ginseng",
 
@@ -9,6 +10,7 @@
 
   "item.lust.cum_bucket": "Cum Bucket",
   "item.lust.pee_bucket": "Pee Bucket",
+  "item.lust.lube_bucket": "Lube Bucket",
 
   "item.minecraft.lingering_potion.effect.aphrodisiac": "Lingering Aphrodisiac",
   "item.minecraft.lingering_potion.effect.antaphrodisiac": "Lingering Antaphrodisiac",
@@ -16,6 +18,7 @@
   "item.minecraft.potion.effect.antaphrodisiac": "Antaphrodisiac",
   "item.minecraft.potion.effect.cum": "Cum Bottle",
   "item.minecraft.potion.effect.pee": "Pee Bottle",
+  "item.minecraft.potion.effect.lube": "Lube Bottle",
   "item.minecraft.splash_potion.effect.aphrodisiac": "Splash Aphrodisiac",
   "item.minecraft.splash_potion.effect.antaphrodisiac": "Splash Antaphrodisiac",
   "item.minecraft.tipped_arrow.effect.aphrodisiac": "Arrow of Lust",

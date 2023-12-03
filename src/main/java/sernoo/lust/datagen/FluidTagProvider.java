@@ -22,9 +22,13 @@ public class FluidTagProvider extends FabricTagProvider.FluidTagProvider {
         getOrCreateTagBuilder(LustFluidTags.PEE)
                 .add(LustFluids.STILL_PEE_ID)
                 .add(LustFluids.FLOWING_PEE_ID);
+        getOrCreateTagBuilder(LustFluidTags.LUBE)
+                .add(LustFluids.STILL_LUBE_ID)
+                .add(LustFluids.FLOWING_LUBE_ID);
 
         getTagBuilder(FluidTags.WATER)
                 .addTag(LustFluidTags.CUM.id())
-                .addTag(LustFluidTags.PEE.id());
+                .addTag(LustFluidTags.PEE.id())
+                .addTag(LustFluidTags.LUBE.id());
     }
 }

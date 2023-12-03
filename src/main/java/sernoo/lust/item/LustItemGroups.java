@@ -22,6 +22,7 @@ public class LustItemGroups {
 
                         entries.add(LustFluids.CUM_BUCKET);
                         entries.add(LustFluids.PEE_BUCKET);
+                        entries.add(LustFluids.LUBE_BUCKET);
                     }).build());
 
     public static void register() {

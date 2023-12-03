@@ -31,5 +31,6 @@ public class ModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(LustFluids.CUM_BUCKET, item("template_bucket"));
         itemModelGenerator.register(LustFluids.PEE_BUCKET, item("template_bucket"));
+        itemModelGenerator.register(LustFluids.LUBE_BUCKET, item("template_bucket"));
     }
 }
